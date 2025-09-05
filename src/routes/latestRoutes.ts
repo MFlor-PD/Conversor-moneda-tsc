@@ -1,8 +1,9 @@
 import { Router } from "express";
-import { getLatest } from "../controllers/latestController.js";
+import { getLatest, currencyConvertor } from "../controllers/latestController.js";
 
 const router = Router();
 
 router.get("/", getLatest);
+router.get("/convert", currencyConvertor);
 
-export{ router as latestRoute };
+export { router as latestRoute };

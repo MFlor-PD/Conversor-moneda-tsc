@@ -62,6 +62,9 @@ Request URL: https://api.freecurrencyapi.com/v1/latest
 http://localhost:3000/api/latest
 http://localhost:3000/api/latest?base_currency=EUR&currencies=USD,GBP,JPY (base_currency=EUR → toma EUR como moneda base.
 
+$ curl "http://localhost:3000/api/latest/convert?base=EUR&target=USD&amount=100"
+{"from":"EUR","to":"USD","amount":100,"rate":1.1661397349,"result":116.61397349}
+
 currencies=USD,GBP,JPY → devuelve solo estas monedas.)
 
 
