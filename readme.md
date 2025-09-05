@@ -3,6 +3,9 @@ https://app.freecurrencyapi.com/dashboard
 Request Method: GET
 Request URL: https://api.freecurrencyapi.com/v1/currencies
 
+GET http://localhost:3000/api/currencies/eur
+
+
 Request Parameters
 Parameter	Type	Mandatory	Description
 *apikey	   string	️  yes      	Your API Key
@@ -76,6 +79,8 @@ Sample Response
 
 Request Method: GET
 Request URL: https://api.freecurrencyapi.com/v1/historical
+GET http://localhost:3000/api/historical?date=YYYY-MM-DD&base_currency="CHOOSECURRENCYejUDS"&currencies=""CURRENCY, CURRENCY""
+
 
 
 Parameter	     Type	 Mandatory	 Description
