@@ -59,6 +59,9 @@ apikey	string	️	   yes       Your API Key
 Request Method: GET
 Request URL: https://api.freecurrencyapi.com/v1/latest
 
+http://localhost:3000/api/latest
+http://localhost:3000/api/latest?base_currency=EUR&currencies=USD,GBP,JPY
+
 
 Parameter	     Type	Mandatory	Description
 #apikey	        string	️	Your API Key

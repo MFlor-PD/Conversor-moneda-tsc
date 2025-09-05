@@ -32,4 +32,8 @@ export interface LatestResponse {
 
 export interface HistoricalResponse {
   data: Record<string, Record<string, number>>;
+  meta: {
+    last_updated: string;     
+    base_currency: string;    
+  };
 }
