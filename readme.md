@@ -60,7 +60,9 @@ Request Method: GET
 Request URL: https://api.freecurrencyapi.com/v1/latest
 
 http://localhost:3000/api/latest
-http://localhost:3000/api/latest?base_currency=EUR&currencies=USD,GBP,JPY
+http://localhost:3000/api/latest?base_currency=EUR&currencies=USD,GBP,JPY (base_currency=EUR → toma EUR como moneda base.
+
+currencies=USD,GBP,JPY → devuelve solo estas monedas.)
 
 
 Parameter	     Type	Mandatory	Description
